@@ -3,15 +3,21 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <footer className="mb-0 text-center">
-        <div className="d-flex align-items-center justify-content-center pb-5">
-          <div className="col-md-6">
-            <p className="mb-3 mb-md-0">Made with ❤️ by {" "}
-              <a  href="https://sahibsingh.dev" className="text-decoration-underline text-dark fs-5" target="_blank" rel="noreferrer">Sahib Singh</a>
-            </p>
-            <a className="text-dark fs-4" href="https://github.com/ssahibsingh" target="_blank" rel="noreferrer">
-              <i className="fa fa-github"></i>
-            </a>
+      <footer className="mb-0 text-center bg-light py-4">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-md-8">
+              <h5 className="mb-3">About ShowStoppers</h5>
+              <p className="mb-3 text-muted">
+                ShowStoppers is a bold and creative brand committed to delivering unforgettable
+                experiences. Whether through innovative designs, standout products, or impactful
+                services, we aim to redefine what it means to truly make a statement. 
+                At ShowStoppers, we don’t just follow trends, we create them!
+              </p>
+              <p className="text-muted small">
+                © {new Date().getFullYear()} ShowStoppers. All rights reserved.
+              </p>
+            </div>
           </div>
         </div>
       </footer>
